@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -12,48 +14,53 @@ header {
     text-align: center;
 }
 
+header h1 {
+    font-family: 'Times New Roman', Times, serif; /* Fonte para o nome da advocacia */
+    margin: 0;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 1rem;
 }
 
-section {
-    padding: 2rem;
-}
-
-#chatbox {
-    background-color: #f9f9f9;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    margin-top: 2rem;
-}
-
-#chatlog {
-    border: 1px solid #ccc;
-    height: 200px;
-    overflow-y: scroll;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-}
-
-#userInput {
-    width: calc(100% - 70px);
-    padding: 0.5rem;
-}
-
-button {
-    padding: 0.5rem;
-    background-color: #4CAF50;
+nav ul li a {
     color: white;
-    border: none;
-    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-button:hover {
-    background-color: #45a049;
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+#imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
