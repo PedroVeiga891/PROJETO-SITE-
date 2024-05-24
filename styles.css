@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+#chatbox {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-top: 2rem;
+}
+
+#chatlog {
+    border: 1px solid #ccc;
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+#userInput {
+    width: calc(100% - 70px);
+    padding: 0.5rem;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
